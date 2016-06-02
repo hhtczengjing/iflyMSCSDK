@@ -18,5 +18,5 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = "lib/iflyMSC.framework"
   s.source_files  = "*.{h,m}"
   s.libraries     = 'z', 'c++'
-  s.framework     = 'CoreLocation', 'CoreTelephoney', 'AVFoundation', 'AudioToolbox', 'SystemConfiguration', 'QuartzCore'
+  s.framework     = 'CoreLocation', 'CoreTelephony', 'AVFoundation', 'AudioToolbox', 'SystemConfiguration', 'QuartzCore'
 end
